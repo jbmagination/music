@@ -41,6 +41,22 @@
       a:hover {
         color: rgb(0, 128, 255);
       }
+      a#soundcloud:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid #FF5500;
+        transition: 0.4s;
+      }
+      a#soundcloud:hover:after {
+        width: 100%;
+        color: #FF5500;
+      }
+      a#soundcloud:hover {
+        color: #FF5500;
+      }
       @media (prefers-color-scheme: dark) {
        a {
           color: rgb(0, 128, 255);
@@ -69,7 +85,7 @@
   </head>
   <body>
     <h1><u><i>i make music</i></u></h1>
-    <h2>find me on <a href="https://jbmagination.bandcamp.com"><i class="fa fa-bandcamp" aria-hidden="true"></i> bandcamp</a> and <a href="https://soundcloud.com/jbmagination"><i class="fa fa-soundcloud" aria-hidden="true"></i> soundcloud</a></h2>
+    <h2>find me on <a class="bandcamp" href="https://jbmagination.bandcamp.com"><i class="fa fa-bandcamp" aria-hidden="true"></i> bandcamp</a> and <a class="soundcloud" href="https://soundcloud.com/jbmagination"><i class="fa fa-soundcloud" aria-hidden="true"></i> soundcloud</a></h2>
     <p>
       ...or 
       <a href="https://open.spotify.com/artist/2fbWoQjolkDOecAvlqQcUk">spotify</a>, 
