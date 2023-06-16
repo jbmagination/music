@@ -51,7 +51,7 @@
           alert(sameHost);
           if (sameHost) return true;
           return confirm('You\'re about to head to ' + new URL(a.href).host + ', which follows a different privacy policy.');
-        }, (new URL(a.href).hostname == window.location.hostname);
+        }, (new URL(a.href).hostname == window.location.hostname));
       });
     </script>
   </body>
