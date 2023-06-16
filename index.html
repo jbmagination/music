@@ -52,7 +52,7 @@
           var hostname = new URL(event.currentTarget.href).hostname;
           var sameHost = ((hostname == window.location.hostname) || (hostname == 'jbmagination.com') || (hostname == ''));
           if (sameHost) window.location = event.currentTarget.href;
-          if (confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.'))) window.location = event.currentTarget.href;
+          else if (confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.')) window.location = event.currentTarget.href;
         });
       });
     </script>
