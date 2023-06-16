@@ -49,11 +49,11 @@
       Array.from(document.getElementsByTagName('a')).forEach((a) => {
         a.addEventListener("click", (event) => {
           var hostname = new URL(event.currentTarget.href).hostname;
-          var sameHost = (hostname == window.location.hostname);
-          alert(hostname);
-          alert(sameHost);
+          var sameHost = ((hostname == window.location.hostname) || (hostname == 'jbmagination.com') || (hostname == ''));
           if (sameHost) return true;
-          else return confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.');
+          else if(!(confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.'))) return false;
+          else return true;
+          return true;
         });
       });
     </script>
