@@ -47,11 +47,11 @@
     <p style="font-size:75%"><a href="https://jbmagination.com">i make stuff</a> | <a href="mailto:business@jbmagination.com">business inquiries</h2>
     <script>
       Array.from(document.getElementsByTagName('a')).forEach((a) => {
-        a.addEventListener("click", (sameHost) => {
-          alert(sameHost);
+        a.addEventListener("click", (event) => {
+          var sameHost = (new URL(event.currentTarget.href).hostname == window.location.hostname);
           if (sameHost) return true;
           return confirm('You\'re about to head to ' + new URL(a.href).host + ', which follows a different privacy policy.');
-        }, (new URL(a.href).hostname == window.location.hostname));
+        });
       });
     </script>
   </body>
