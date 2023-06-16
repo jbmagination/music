@@ -48,10 +48,12 @@
     <script>
       Array.from(document.getElementsByTagName('a')).forEach((a) => {
         a.addEventListener("click", (event) => {
-          var hostname = new URL(event.currentTarget.href).hostname
+          var hostname = new URL(event.currentTarget.href).hostname;
           var sameHost = (hostname == window.location.hostname);
+          alert(hostname);
+          alert(sameHost);
           if (sameHost) return true;
-          return confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.');
+          else return confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.');
         });
       });
     </script>
