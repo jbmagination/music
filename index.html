@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <noscript>
-      <link href="/fontawesome/css/fontawesome.min.css" rel="stylesheet" integrity="sha384-bGIKHDMAvn+yR8S/yTRi+6S++WqBdA+TaJ1nOZf079H6r492oh7V6uAqq739oSZC" crossorigin="anonymous">
-      <link href="/fontawesome/css/brands.min.css" rel="stylesheet" integrity="sha384-2ExAXhxetFPlyL5ZypKQbz0ZrD6S0xW1jF2n+bGda67tIfsjcfHQy3FkuA1IjuxK" crossorigin="anonymous">
+      <link href="/fontawesome/css/fontawesome.min.css" rel="stylesheet" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+      <link href="/fontawesome/css/brands.min.css" rel="stylesheet" integrity="sha384-zLGWoEQo4d0pyo9mhl8re+s13DMgD50yZvmt2KepO9EKPRKSKb6ejYyyrOacdxbF" crossorigin="anonymous">
     </noscript>
-    <script defer src="/fontawesome/js/brands.min.js" integrity="sha384-LZKIVE6U9qJ1ysu6iReojA6FFHyh3907bZcgwYnIGZZGKNFIbzPGCF76fZdKRIpS" crossorigin="anonymous"></script>
-    <script defer src="/fontawesome/js/fontawesome.min.js" integrity="sha384-UOiUgfGrkdraMjJCXCBJ3es7S0WlAfRzwutEkKdSvdAJBEi80T6ccH436MepipvI" crossorigin="anonymous"></script>
+    <script defer src="/fontawesome/js/brands.min.js" integrity="sha384-HgDRzw9OXl6njKttsRM6bzXDEX0jXjFz4ftMEacmpWzS/YHZMrzhqmx/hCizzsD+" crossorigin="anonymous"></script>
+    <script defer src="/fontawesome/js/fontawesome.min.js" integrity="sha384-/iuJV08jLDUeRALEMlZ6fs0Bw++/li2mlOSJxBM7Iv5yj5XbrUdLKtMQN43ZZFBp" crossorigin="anonymous"></script>
     <link href="/style.css" rel="stylesheet" integrity="sha384-tnZnczjI6Ni3EYhSRGORPP3mMYJoWalY3JqGkT775cT2z3aWp7msTKj6OW38YxPH" crossorigin="anonymous">
   </head>
   <body>
@@ -46,6 +46,7 @@
     </div>
     <p style="font-size:75%"><a href="https://jbmagination.com">i make stuff</a> | <a href="mailto:business@jbmagination.com">business inquiries</h2>
     <script>
+      // @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt PublicDomain
       Array.from(document.getElementsByTagName('a')).forEach((a) => {
         a.addEventListener("click", (event) => {
           event.preventDefault();
@@ -55,6 +56,8 @@
           else if (confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.')) window.location = event.currentTarget.href;
         });
       });
+      // @license-end
     </script>
+    <a href="./weblabels.html" rel="jslicense" data-jslicense="1"></a>
   </body>
 </html>
