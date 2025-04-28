@@ -25,7 +25,10 @@
         "qqmusic": "https://y.qq.com/n/ryqq/albumDetail/0049HkNq1RS4pg",
         "kugou": "https://kugou.com/album/info/2eam9t24/",
         "pandora": "https://www.pandora.com/artist/jbmagination/scrutiny/scrutiny/TRtdqbrJrc4PlKV",
-        "anghami": "https://play.anghami.com/song/1209663571"
+        "anghami": "https://play.anghami.com/song/1209663571",
+        "youtube": "https://youtu.be/Ui8kqbWfeic",
+        "youtubemusic": "https://music.youtube.com/watch?v=Ui8kqbWfeic",
+        "commons": "https://commons.wikimedia.org/wiki/File:JBMagination_-_scrutiny.wav"
     },
     "credits": {
         "producers": [{
