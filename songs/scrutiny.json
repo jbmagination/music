@@ -5,32 +5,39 @@
         "website": "https://jbmagination.com"
     }],
     "featured": [],
-    "desc": "",
+    "desc": "been a while since i've made something i'm proud of. figured i'd at least put something out",
     "licenses": ["CC-BY-SA-3.0","CC-BY-SA-4.0"],
-    "releases": {},
+    "releases": {
+        "bandcamp": "https://jbmagination.bandcamp.com/track/scrutiny",
+        "soundcloud": "https://soundcloud.com/jbmagination/scrutiny",
+        "newgrounds": "https://www.newgrounds.com/audio/listen/1422927",
+        "audiomack": "https://audiomack.com/jbmagination/song/scrutiny",
+        "slaps": "",
+        "roblox": "https://create.roblox.com/store/asset/108139041651112/scrutiny"
+    },
     "credits": {
         "producers": [{
             "name": "JBMagination",
             "website": "https://jbmagination.com"
         }],
         "samples": [{
-            "name": "",
+            "name": "8 bar squarepusher breakcore beat 190 (amen break)",
             "primary": [{
                 "name": "shallowed",
-                "website": "https://freesound.com/people/shallowed"
+                "website": "https://freesound.org/people/shallowed"
             }],
             "featured": [],
-            "link": "",
+            "link": "https://freesound.org/s/713695/",
             "licenses": ["CC0"],
         }],
-        "interpolates": [{
-            "name": "",
+        "interpolations": [{
+            "name": "MO_US_95_synth_loop_scrutiny_Emin.wav",
             "primary": [{
                 "name": "underscores",
                 "website": "https://underscores.plus"
             }],
             "featured": [],
-            "link": "",
+            "link": "https://splice.com/sounds/sample/1a11d39d86f21a10360cb390a5201242a855076cad19ccd420c4bb2ddb00ed4d",
             "licenses": ["splice"],
         }],
     }
