@@ -1,0 +1,37 @@
+{
+    "name": "scrutiny",
+    "primary": [{
+        "name": "JBMagination",
+        "website": "https://jbmagination.com"
+    }],
+    "featured": [],
+    "desc": "",
+    "licenses": ["CC-BY-SA-3.0","CC-BY-SA-4.0"],
+    "releases": {},
+    "credits": {
+        "producers": [{
+            "name": "JBMagination",
+            "website": "https://jbmagination.com"
+        }],
+        "samples": [{
+            "name": "",
+            "primary": [{
+                "name": "shallowed",
+                "website": "https://freesound.com/people/shallowed"
+            }],
+            "featured": [],
+            "link": "",
+            "licenses": ["CC0"],
+        }],
+        "interpolates": [{
+            "name": "",
+            "primary": [{
+                "name": "underscores",
+                "website": "https://underscores.plus"
+            }],
+            "featured": [],
+            "link": "",
+            "licenses": ["splice"],
+        }],
+    }
+}
