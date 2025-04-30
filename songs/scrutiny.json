@@ -6,7 +6,7 @@
     }],
     "featured": [],
     "desc": "been a while since i've made something i'm proud of. figured i'd at least put something out",
-    "licenses": ["CC-BY-SA-3.0","CC-BY-SA-4.0"],
+    "licenses": ["CC-BY-SA-3.0","CC-BY-SA-4.0","CC-BY-NC-SA-3.0","CC-BY-NC-SA-4.0"],
     "releases": {
         "bandcamp": "https://jbmagination.bandcamp.com/track/scrutiny",
         "soundcloud": "https://soundcloud.com/jbmagination/scrutiny",
@@ -28,7 +28,10 @@
         "anghami": "https://play.anghami.com/song/1209663571",
         "youtube": "https://youtu.be/Ui8kqbWfeic",
         "youtubemusic": "https://music.youtube.com/watch?v=Ui8kqbWfeic",
-        "commons": "https://commons.wikimedia.org/wiki/File:JBMagination_-_scrutiny.wav"
+        "commons": "https://commons.wikimedia.org/wiki/File:JBMagination_-_scrutiny.wav",
+        "applemusic": "https://music.apple.com/album/scrutiny/1811057278?i=1811057279",
+        "itunes": "https://music.apple.com/album/scrutiny/1811057278",
+        "shazam": "https://www.shazam.com/song/1811057279/scrutiny"
     },
     "credits": {
         "producers": [{
